@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödeme Gününün Hesaplanması - Soru 13</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navigation {
+            background: #2c3e50;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+        .question-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .question {
+            background: #ecf0f1;
+            padding: 20px;
+            border-left: 5px solid #3498db;
+            margin-bottom: 30px;
+        }
+        .options {
+            margin: 20px 0;
+        }
+        .option {
+            padding: 10px;
+            margin: 5px 0;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+        .answer {
+            background: #d4edda;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .answer h3 {
+            color: #155724;
+            margin-top: 0;
+        }
+        .explanation {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .legal-basis {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .legal-basis h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .option-analysis {
+            margin: 30px 0;
+        }
+        .option-detail {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #6c757d;
+        }
+        .correct {
+            border-left-color: #28a745;
+            background: #d4edda;
+        }
+        .incorrect {
+            border-left-color: #dc3545;
+            background: #f8d7da;
+        }
+        .reference {
+            font-style: italic;
+            color: #6c757d;
+            margin-top: 10px;
+        }
+        .concept-box {
+            background: #e1f5fe;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #03a9f4;
+        }
+        .calculation-box {
+            background: #f3e5f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #9c27b0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <a href="index.html">← Ana Sayfa</a>
+            <a href="kambiyo-12.html">← Önceki Soru</a>
+            <a href="kambiyo-14.html">Sonraki Soru →</a>
+        </div>
+
+        <div class="question-box">
+            <h1>Görüldükten Belirli Gün Sonra Ödenecek Poliçe</h1>
+            
+            <div class="concept-box">
+                <h3>GÖRÜLDÜKTEN BELİRLİ GÜN SONRA ÖDEME NEDİR?</h3>
+                <p>"Görüldükten belirli gün sonra ödenecek" poliçelerde vade, poliçenin kabul edildiği tarihten itibaren hesaplanır. Bu durumda kabul tarihi çok önemlidir.</p>
+            </div>
+
+            <div class="question">
+                <h2>SORU:</h2>
+                <p>Tarihsiz bir "görüldükten otuz gün sonra ödenecek" poliçe 15 Nisan'da düzenlenmiş, 20 Nisan'da ibraz edilmiş ve aynı gün kabul edilmiştir. Bu poliçenin ödeme günü ne zaman başlar?</p>
+                <div class="options">
+                    <div class="option">A) 15 Mayıs</div>
+                    <div class="option">B) 16 Mayıs</div>
+                    <div class="option">C) 20 Mayıs</div>
+                    <div class="option">D) 21 Mayıs</div>
+                    <div class="option">E) 22 Mayıs</div>
+                </div>
+            </div>
+
+            <div class="calculation-box">
+                <h3>HESAPLAMA:</h3>
+                <p><strong>Kabul tarihi:</strong> 20 Nisan</p>
+                <p><strong>Süre:</strong> 30 gün sonra</p>
+                <p><strong>Hesaplama:</strong> 20 Nisan + 30 gün = 20 Mayıs</p>
+                <p><strong>Ödeme günü başlangıcı:</strong> 21 Mayıs (ertesi gün)</p>
+            </div>
+
+            <div class="answer">
+                <h3>✓ DOĞRU CEVAP: D) 21 Mayıs</h3>
+            </div>
+
+            <div class="explanation">
+                <h3>AÇIKLAMA:</h3>
+                <p>Bu soruda "görüldükten belirli gün sonra ödenecek" poliçelerde vade hesaplaması sorulmaktadır. Kritik nokta, sürenin kabul tarihinden itibaren başlaması ve ödeme gününün vadenin ertesi günü başlamasıdır.</p>
+            </div>
+
+            <div class="legal-basis">
+                <h3>HUKUKİ DAYANAK:</h3>
+                <p><strong>TTK Madde 667:</strong> Görüldükten belirli gün sonra ödemeyi düzenler.</p>
+                <p><strong>TTK Madde 702:</strong> Ödeme gününü belirtir.</p>
+                <p><strong>TTK Madde 669:</strong> Vade hesaplamasını düzenler.</p>
+            </div>
+
+            <div class="option-analysis">
+                <h3>HER ŞIK İÇİN AYRINTILI ANALİZ:</h3>
+                
+                <div class="option-detail incorrect">
+                    <h4>A) 15 Mayıs → YANLIŞ</h4>
+                    <p>Bu tarih, poliçenin düzenlenme tarihinden (15 Nisan) 30 gün sonrasıdır. Ancak "görüldükten sonra" poliçelerde süre kabul tarihinden başlar.</p>
+                    <p class="reference">Kaynak: TTK m.667 yanlış uygulaması</p>
+                </div>
+
+                <div class="option-detail incorrect">
+                    <h4>B) 16 Mayıs → YANLIŞ</h4>
+                    <p>Bu da düzenlenme tarihinden hesaplanan yanlış bir sonuçtur. Kabul tarihi göz önünde bulundurulmamıştır.</p>
+                    <p class="reference">Kaynak: TTK m.667 yanlış uygulaması</p>
+                </div>
+
+                <div class="option-detail incorrect">
+                    <h4>C) 20 Mayıs → YANLIŞ</h4>
+                    <p>Bu vade günüdür, ödeme gününün başlangıcı değil. Ödeme günü vadenin ertesi günü başlar.</p>
+                    <p class="reference">Kaynak: TTK m.702</p>
+                </div>
+
+                <div class="option-detail correct">
+                    <h4>D) 21 Mayıs → DOĞRU</h4>
+                    <p><strong>DOĞRU CEVAP!</strong> TTK m.667 ve 702 uyarınca:</p>
+                    <ul>
+                        <li>Kabul tarihi: 20 Nisan</li>
+                        <li>30 gün sonra vade: 20 Mayıs</li>
+                        <li>Ödeme günü başlangıcı: 21 Mayıs</li>
+                    </ul>
+                    <p class="reference">Kaynak: 6102 sayılı TTK m.667, 702</p>
+                </div>
+
+                <div class="option-detail incorrect">
+                    <h4>E) 22 Mayıs → YANLIŞ</h4>
+                    <p>Bu tarih, ödeme günü başlangıcından bir gün geç hesaplanmış sonuçtur. Doğru hesaplama 21 Mayıs'tır.</p>
+                    <p class="reference">Kaynak: Hesaplama hatası</p>
+                </div>
+
+                <div class="option-detail">
+                    <h4>SONUÇ:</h4>
+                    <p>"Görüldükten belirli gün sonra" poliçelerde süre kabul tarihinden başlar ve ödeme günü vadenin ertesi günü başlar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

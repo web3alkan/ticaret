@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticaret Hukuku Sınav Soruları</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .category {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .category h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .question-list {
+            list-style: none;
+            padding: 0;
+        }
+        .question-list li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .question-list li:before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+        .question-list a {
+            text-decoration: none;
+            color: #2c3e50;
+            transition: color 0.3s ease;
+        }
+        .question-list a:hover {
+            color: #3498db;
+            text-decoration: underline;
+        }
+        .intro {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .intro p {
+            line-height: 1.8;
+            color: #555;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            padding: 20px;
+            background: #34495e;
+            border-radius: 10px;
+            color: white;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ticaret Hukuku Sınav Soruları</h1>
+        <p class="subtitle">Detaylı Çözümler ve Hukuki Dayanaklar ile</p>
+        
+        <div class="intro">
+            <p>Bu platform, ticaret hukuku sınavında çıkmış soruları derleyerek öğrencilerin sınava hazırlanmasına yardımcı olmayı amaçlamaktadır. Her soru için detaylı çözüm ve hukuki dayanaklar sunulmaktadır.</p>
+            <p>Sorular konularına göre kategorize edilmiş olup, her kategori altında ilgili sorulara kolayca erişebilirsiniz.</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number">19</span>
+                <span class="stat-label">Toplam Soru</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Ana Kategori</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Çözümlü</span>
+            </div>
+        </div>
+
+        <div class="stats" style="margin-bottom: 20px;">
+            <div class="stat-item">
+                <a href="ozet.html" style="color: white; text-decoration: none; padding: 15px 30px; background: #e74c3c; border-radius: 5px; font-weight: bold;">📚 ÖZET ÇALIŞMA REHBERİ</a>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="category">
+                <h2>Kambiyo Senetleri Hukuku</h2>
+                <ul class="question-list">
+                    <li><a href="kambiyo-1.html">Kambiyo Senetlerinin Tanımı ve Çeşitleri</a></li>
+                    <li><a href="kambiyo-2.html">Çek ve İbraz Süreleri</a></li>
+                    <li><a href="kambiyo-3.html">Poliçe ve Ciro İşlemleri</a></li>
+                    <li><a href="kambiyo-4.html">Karşılıksız Çek ve Sonuçları</a></li>
+                    <li><a href="kambiyo-5.html">Aval ve Kefalet Farkları</a></li>
+                    <li><a href="kambiyo-6.html">Ciro Çeşitleri ve Hukuki Sonuçları</a></li>
+                    <li><a href="kambiyo-7.html">İmzaların Bağımsızlığı İlkesi</a></li>
+                    <li><a href="kambiyo-8.html">Bonoda Vade ve Süre Hesaplamaları</a></li>
+                    <li><a href="kambiyo-9.html">Zamanaşımı Süreleri</a></li>
+                    <li><a href="kambiyo-10.html">Müracaat Hakları ve Protesto</a></li>
+                    <li><a href="kambiyo-11.html">Poliçede Vade Çeşitleri ve Hesaplama</a></li>
+                    <li><a href="ciro-edilemez.html">"Ciro Edilemez" Kaydının Hukuki Sonuçları</a></li>
+                    <li><a href="kambiyo-12.html">Protestonun Amacı ve Fonksiyonu</a></li>
+                    <li><a href="kambiyo-13.html">Ödeme Gününün Hesaplanması</a></li>
+                    <li><a href="kambiyo-14.html">Bedelsiz Ciro ve Hukuki Sonuçları</a></li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <h2>Anonim Şirketler Hukuku</h2>
+                <ul class="question-list">
+                    <li><a href="anonim-1.html">Genel Kurul Kararları ve İptal Davası</a></li>
+                    <li><a href="anonim-2.html">Pay Sahipliği Hakları ve Bilgi Alma Hakkı</a></li>
+                    <li><a href="anonim-3.html">Sermaye Artırımı ve Yöntemleri</a></li>
+                    <li><a href="anonim-4.html">Yönetim Kurulu Sorumluluğu</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
